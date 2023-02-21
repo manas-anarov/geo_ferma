@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==3.2.3"
+djangorestframework = "*"
+psycopg2-binary = "*"
+djangorestframework-gis = "*"
+django-environ = "*"
+django-leaflet = "*"
+django-rest-auth = "*"
+django-allauth = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
